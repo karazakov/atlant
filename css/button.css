@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Russo One", "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#header {
+  background: #00042a;
+}
+#header .header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header .header--left {
+  display: flex;
+  align-items: center;
+}
+#header--nav h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2194FF;
+}
+#header--nav a {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2194FF;
+}
+
+#hero {
+  background: #00042a;
+  height: 700px;
+}
+#hero .hero--title {
+  padding: 70px 0;
+}
+#hero .hero--title h1 {
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+}
+#hero .hero--title p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #F1F1F1;
+  padding: 40px 0;
+}
+#hero .hero--title a {
+  padding-left: 510px;
+}
+#hero .hero--top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--top button {
+  width: 361px;
+  height: 87px;
+  background: #2194FF;
+  border-radius: 11px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #F1F1F1;
+  transition: 0.3s;
+}
+#hero .hero--top button:hover {
+  background: transparent;
+  transform: scale(1.1);
+  color: #2194FF;
+  border: 2px solid #2194FF;
+}
+
+/*# sourceMappingURL=button.css.map */
